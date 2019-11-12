@@ -1,0 +1,7 @@
+@CHARSET "UTF-8";
+.products{
+    display:flex;
+    flex-direction:column;
+}
+
+
