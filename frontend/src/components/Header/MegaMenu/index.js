@@ -1,6 +1,12 @@
 import React from 'react';
 import "../Navbar/navbar.css";
 
+function httpGet(url) {
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.open( "GET", url, false ); // false for synchronous request
+    return xmlHttp.responseText;
+}
+
 const MegaMenu = (props) => {
     return(
       <React.Fragment>
@@ -14,7 +20,7 @@ const MegaMenu = (props) => {
                     {props.category.list.map((item)=>{
                         return(
                             <div key={item} className="container-list-item">
-                                <a href="eda">{item}</a>
+                                <a href={"http://localhost:8080/"+item}>{item}</a>
                             </div>
                         )
                     })}
