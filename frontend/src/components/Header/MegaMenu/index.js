@@ -5,7 +5,7 @@ const MegaMenu = (props) => {
     return(
       <React.Fragment>
         <li>
-            <a className="hasDropdown" href="#Electronics">
+            <a className="hasDropdown" href="eda">
                 {props.category.title}
                 <i className="fa fa-angle-down"></i>
             </a>
@@ -14,7 +14,7 @@ const MegaMenu = (props) => {
                     {props.category.list.map((item)=>{
                         return(
                             <div key={item} className="container-list-item">
-                                <a href="#Electronics">{item}</a>
+                                <a href="eda">{item}</a>
                             </div>
                         )
                     })}
