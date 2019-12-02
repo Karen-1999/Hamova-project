@@ -8,11 +8,8 @@ const Meal = (props) => {
     const some = props.match.params.name
     const [message, setMessage] = React.useState('???');
     function getInfo() {
-        console.log('Hmmmmm');
-        var proxyUrl = 'https://cors-anywhere.herokuapp.com/',
-            targetUrl = 'http://localhost:8080'
-
-        fetch(targetUrl + '/' + some)
+        console.log('getInfo called');
+        fetch(SERVER_URL + '/' + some)
             .then(r => {
                 return r.json();
             }).then(data => {
