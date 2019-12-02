@@ -29,7 +29,7 @@ class PriceDropDown extends React.Component {
                         this.props.prices.map((price,index) => {
                             return(
                              <option key={price.id} value={index}>
-                                {price.quantity+ " - ₹" +
+                                {price.quantity+ " - Rub" +
                                 price.price}
                              </option>
                             )

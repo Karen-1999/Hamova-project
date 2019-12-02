@@ -20,7 +20,7 @@ const MegaMenu = (props) => {
                     {props.category.list.map((item)=>{
                         return(
                             <div key={item} className="container-list-item">
-                                <a href={"http://localhost:8080/"+item}>{item}</a>
+                                <a href={'meal/' + item}>{item}</a>
                             </div>
                         )
                     })}
