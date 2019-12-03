@@ -12,6 +12,7 @@ const Rout = (props) => {
             <React.Fragment>
                 <Route exact path="/" component={App} />
                 <Route path="/meal/:name" component={Meal} />
+                <Route path="/admin" component={adminRoutes} />
             </React.Fragment>
         </Router>
        /* <Router>

@@ -18,12 +18,11 @@ const Meal = (props) => {
             this.state.description = data.description;*/
         })
     }
+    getInfo();
+
     return(
         <div>
             <h1>Hi there this is {some} and it is {message}</h1>
-            <button onClick={getInfo}>
-                Get Description
-            </button>
         </div>
     );
 }
