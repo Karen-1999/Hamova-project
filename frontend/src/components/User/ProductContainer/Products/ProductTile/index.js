@@ -7,11 +7,11 @@ import './ProductTile.css';
 const ProductTile = (props) => {
     let {item} = props;
     return(
-        <div className="productTile">
-            <div>{item.displayName}</div>
+        <form className="productTile">
+            <a href={'../meal/' + item.displayName}>{item.displayName}</a>
             <img className="product-img" src={item.img} alt={item.displayName}/>
             <PriceDropDown prices={item.prices} displayName={item.displayName}/>
-        </div>
+        </form>
     )
 }
 

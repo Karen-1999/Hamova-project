@@ -13,7 +13,7 @@ const Navbar = () => {
     }
     let foodGrains={
         title:"Armenian supper",
-        list:["Jangyalov hac", "Tjvjik"]
+        list:["Jangyalov Hac", "Tjvjik"]
     }
     let oth={
         title:"Other",

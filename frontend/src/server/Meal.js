@@ -34,7 +34,7 @@ const Meal = (props) => {
                 return r.json();
             }).then(data => {
             //set ingredients when it will be ready
-            setMessage(data.description);
+            setIngredients(data.ingredients);
 
         })
     }
@@ -42,6 +42,10 @@ const Meal = (props) => {
     getInfo();
     getName();
     getIngredients();
+    var str = ingredients;
+    str = str.split('\\n').map(i => {
+        return <p>- {i}</p>
+    });
     return(
         <div>
             <div className='centered'>
@@ -62,7 +66,7 @@ const Meal = (props) => {
                         <h3>
                             Ingredients
                         </h3>
-                        {ingredients}
+                        {str}
                     </div>
                 </div>
             </div>

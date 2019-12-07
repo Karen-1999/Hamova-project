@@ -9,7 +9,10 @@
     margin:1em;
     padding:0 0 0.0rem 0;
 }
-
+a {
+    text-decoration: none;
+    color: #000;
+}
 .productTile:hover{
     box-shadow:0 1px 3px 0 #80ccff, 0 1px 5px 0 #80ccff;
 }
