@@ -4,10 +4,10 @@ const HeaderUserItems = (props) => {
     let userNameDisplay = props.userName != null ? <strong style={{paddingRight:".2rem"}}>{props.userName}</strong> : "";
     return(
         <div className="app-user">
-            <div className="app-item">
+            <a className="app-item" href='../login'>
                 {userNameDisplay}
-                <img src={props.imgIcon} className="notification-icon" title={props.title} alt="user-item"/> 
-            </div>
+                <img src={props.imgIcon} className="notification-icon" title={props.title} alt="user-item"/>
+            </a>
         </div>        
     )
 }

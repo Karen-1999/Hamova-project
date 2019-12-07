@@ -5,7 +5,6 @@ import ProductContainer from './ProductContainer/';
 const User = () => {
     return (
         <div className="App">
-            <Header />
             <ProductContainer />
         </div>
     )

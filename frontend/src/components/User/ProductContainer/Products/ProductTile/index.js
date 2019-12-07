@@ -8,6 +8,7 @@ const ProductTile = (props) => {
     let {item} = props;
     return(
         <div className="productTile">
+            <div>{item.displayName}</div>
             <img className="product-img" src={item.img} alt={item.displayName}/>
             <PriceDropDown prices={item.prices} displayName={item.displayName}/>
         </div>

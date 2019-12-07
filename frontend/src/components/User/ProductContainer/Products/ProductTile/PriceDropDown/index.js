@@ -18,11 +18,7 @@ class PriceDropDown extends React.Component {
         return (
             <React.Fragment>
                 <div className="product-pricing">
-                    <p className="">M.R.P.
-                        <del>₹{this.state.price}</del> 
-                        <strong> ₹{this.state.price-this.state.productDiscount}</strong>
-                    </p>
-                    <button className="product-discount">Save Rs.{this.state.productDiscount}</button>
+                    <button className="product-discount">Hot food!</button>
                 </div>
                 <select className="product-price-dd" onChange={(e)=>this.handleProductDiscountChange(e.target.value)}>
                     {
@@ -36,14 +32,6 @@ class PriceDropDown extends React.Component {
                         })     
                     }
                 </select>
-                <div className="product-action-btn">
-                    <button className="add-cart-btn">
-                        Add Cart
-                    </button>
-                    <button className="buy-now-btn">
-                        Buy Now
-                    </button>
-                </div>
             </React.Fragment>
         )
     }

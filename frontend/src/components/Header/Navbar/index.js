@@ -12,10 +12,10 @@ const Navbar = () => {
         list:["Xorovac", "Xashlama", "Harisa"]
     }
     let foodGrains={
-        title:"Armenian supper)",
+        title:"Armenian supper",
         list:["Jangyalov hac", "Tjvjik"]
     }
-    let organic={
+    let oth={
         title:"Other",
         list:["SMTH"]
     }
@@ -25,7 +25,6 @@ const Navbar = () => {
                 <MegaMenu category={vegetables} />
                 <MegaMenu category={fruits} />
                 <MegaMenu category={foodGrains} />
-                <MegaMenu category={organic} />
             </ul>
         </div>
     )

@@ -4,7 +4,7 @@ import './ProductPath.css';
 const ProductPath = () => {
     return(
         <div className="productPath">
-            <h5>Home> Vegetables></h5>
+            <h1>Armenian kitchen</h1>
         </div>
     )
 }

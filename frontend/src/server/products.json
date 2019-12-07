@@ -3,55 +3,55 @@
         "id":1,
         "type":"vegetables",
         "category":"root",
-        "img":"https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiWhMHc8MPlAhVPyKQKHQFyCGAQjRx6BAgBEAQ&url=https%3A%2F%2Fwww.44400.am%2Fproduct_view%2Fdescription%2F%2520%2F93%2Frus&psig=AOvVaw01wG2yKH0YvfbJpIfFTIJz&ust=1572521344598783",
-        "displayName":"Carrot",
-        "item":"carrot",
+        "img":"https://buy.am/media/image/4f/36/04/Lolikov-dzvadzex-Vostan_600x600.jpg",
+        "displayName":"Dzvadzex",
+        "item":"Dzvadzex",
         "prices":[{
-            "id":"carrot-price-1",
-            "quantity":"1kg",
-            "price":15,
+            "id":"Dzvadzex-price-1",
+            "quantity":"1 portion",
+            "price":150,
             "discount":3
         },{
-            "id":"carrot-price-2",
-            "quantity":"2kg",
-            "price":30,
+            "id":"Dzvadzex-price-2",
+            "quantity":"2 portion",
+            "price":290,
             "discount":5
         },{
-            "id":"carrot-price-3",
-            "quantity":"3kg",
-            "price":45,
+            "id":"Dzvadzex-price-3",
+            "quantity":"3 portion",
+            "price":400,
             "discount":8
         },{
-            "id":"carrot-price-4",
-            "quantity":"5kg",
-            "price":75,
+            "id":"Dzvadzex-price-4",
+            "quantity":"5 portion",
+            "price":500,
             "discount":12
         }]
     },{
         "id":2,
         "type":"vegetables",
         "category":"plant",
-        "img":"https://www.bigbasket.com/media/uploads/p/m//40022638_3-fresho-tomato-local-organically-grown.jpg",
-        "displayName":"Tomato",
-        "item":"tomato",
+        "img":"http://v.img.com.ua/b/600x500/5/cf/ef25715fcb88e31750c2b9b23f59bcf5.jpg",
+        "displayName":"Tey",
+        "item":"Tey",
         "prices":[{
-            "id":"tomato-price-1",
-            "quantity":"1kg",
+            "id":"Tey-price-1",
+            "quantity":"1 portion",
             "price":15,
             "discount":2
         },{
-            "id":"tomato-price-2",
-            "quantity":"2kg",
+            "id":"Tey-price-2",
+            "quantity":"2 portion",
             "price":30,
             "discount":3
         },{
-            "id":"tomato-price-3",
-            "quantity":"3kg",
+            "id":"Tey-price-3",
+            "quantity":"3 portion",
             "price":45,
             "discount":5
         },{
-            "id":"tomato-price-4",
-            "quantity":"5kg",
+            "id":"Tey-price-4",
+            "quantity":"4 portion",
             "price":75,
             "discount":12
         }]
@@ -59,27 +59,27 @@
         "id":3,
         "type":"vegetables",
         "category":"root",
-        "img":"https://www.bigbasket.com/media/uploads/p/m//40023476_4-fresho-potato-organically-grown.jpg",
-        "displayName":"Potato",
-        "item":"potato",
+        "img":"https://img0.liveinternet.ru/images/attach/c/11/128/615/128615756_3740065_1.png",
+        "displayName":"Xorovac",
+        "item":"Xorovac",
         "prices":[{
-            "id":"potato-price-1",
-            "quantity":"1kg",
+            "id":"Xorovac-price-1",
+            "quantity":"1 portion",
             "price":15,
             "discount":2
         },{
-            "id":"potato-price-2",
-            "quantity":"2kg",
+            "id":"Xorovac-price-2",
+            "quantity":"2 portion",
             "price":30,
             "discount":3
         },{
-            "id":"potato-price-3",
-            "quantity":"3kg",
+            "id":"Xorovac-price-3",
+            "quantity":"3 portion",
             "price":45,
             "discount":5
         },{
-            "id":"potato-price-4",
-            "quantity":"5kg",
+            "id":"Xorovac-price-4",
+            "quantity":"5 portion",
             "price":75,
             "discount":12
         }]
@@ -87,27 +87,27 @@
         "id":4,
         "type":"vegetables",
         "category":"root",
-        "img":"https://www.bigbasket.com/media/uploads/p/m//40145209_1-fresho-ooty-beetroot.jpg",
-        "displayName":"Beetroot",
-        "item":"beetroot",
+        "img":"https://www.menu.am/resources/default/img/restaurant_products/big/1499178865-9924.jpeg",
+        "displayName":"Tjvjik",
+        "item":"tjvjik",
         "prices":[{
-            "id":"beetroot-price-1",
-            "quantity":"1kg",
+            "id":"tjvjik-price-1",
+            "quantity":"1 portion",
             "price":15,
-            "discount":1
+            "discount":2
         },{
-            "id":"beetroot-price-2",
-            "quantity":"2kg",
+            "id":"tjvjik-price-2",
+            "quantity":"2 portion",
             "price":30,
             "discount":3
         },{
-            "id":"beetroot-price-3",
-            "quantity":"3kg",
+            "id":"tjvjik-price-3",
+            "quantity":"3 portion",
             "price":45,
             "discount":5
         },{
-            "id":"beetroot-price-4",
-            "quantity":"5kg",
+            "id":"tjvjik-price-4",
+            "quantity":"5 portion",
             "price":75,
             "discount":12
         }]
@@ -115,27 +115,27 @@
         "id":5,
         "type":"vegetables",
         "category":"root",
-        "img":"https://www.bigbasket.com/media/uploads/p/m//50000482_6-fresho-cauliflower-organically-grown.jpg",
-        "displayName":"Cauliflower",
-        "item":"cauliflower",
+        "img": "http://talerka.tv/sites/default/files/styles/image600/public/khashlama2.jpg?itok=NgIkAG5W",
+        "displayName":"Xashlama",
+        "item":"Xashlama",
         "prices":[{
-            "id":"cauliflower-price-1",
-            "quantity":"1kg",
+            "id":"Xashlama-price-1",
+            "quantity":"1 portion",
             "price":15,
             "discount":1
         },{
-            "id":"cauliflower-price-2",
-            "quantity":"2kg",
+            "id":"Xashlama-price-2",
+            "quantity":"2 portion",
             "price":30,
             "discount":3
         },{
-            "id":"cauliflower-price-3",
-            "quantity":"3kg",
+            "id":"Xashlama-price-3",
+            "quantity":"3 portion",
             "price":45,
             "discount":5
         },{
-            "id":"cauliflower-price-4",
-            "quantity":"5kg",
+            "id":"Xashlama-price-4",
+            "quantity":"5 portion",
             "price":75,
             "discount":12
         }]
@@ -143,27 +143,27 @@
         "id":6,
         "type":"vegetables",
         "category":"root",
-        "img":"https://www.bigbasket.com/media/uploads/p/m//40023472_3-fresho-onion-organically-grown.jpg",
-        "displayName":"Onion",
-        "item":"onion",
+        "img":"https://www.44400.am/product_images/85/top_img/harisa.png",
+        "displayName":"Harisa",
+        "item":"Harisa",
         "prices":[{
-            "id":"onion-price-1",
-            "quantity":"1kg",
+            "id":"Harisa-price-1",
+            "quantity":"1 portion",
             "price":15,
             "discount":1
         },{
-            "id":"onion-price-2",
-            "quantity":"2kg",
+            "id":"Harisa-price-2",
+            "quantity":"2 portion",
             "price":30,
             "discount":3
         },{
-            "id":"onion-price-3",
-            "quantity":"3kg",
+            "id":"Harisa-price-3",
+            "quantity":"3 portion",
             "price":45,
             "discount":5
         },{
-            "id":"onion-price-4",
-            "quantity":"5kg",
+            "id":"Harisa-price-4",
+            "quantity":"5 portion",
             "price":75,
             "discount":12
         }]
@@ -171,55 +171,27 @@
         "id":7,
         "type":"vegetables",
         "category":"root",
-        "img":"https://www.bigbasket.com/media/uploads/p/m//30000576_13-fresho-amaranthus-red.jpg",
-        "displayName":"Amaranthus",
-        "item":"amaranthus",
+        "img":"https://7445252.ru/menu/509.png",
+        "displayName":"Jangyalov Hac",
+        "item":"Jangyalov Hac",
         "prices":[{
-            "id":"amaranthus-price-1",
-            "quantity":"1kg",
+            "id":"Jangyalov Hac-price-1",
+            "quantity":"1 portion",
             "price":15,
             "discount":2
         },{
-            "id":"amaranthus-price-2",
-            "quantity":"2kg",
+            "id":"Jangyalov Hac-price-2",
+            "quantity":"2 portion",
             "price":30,
             "discount":3
         },{
-            "id":"amaranthus-price-3",
-            "quantity":"3kg",
+            "id":"Jangyalov Hac-price-3",
+            "quantity":"3 portion",
             "price":45,
             "discount":5
         },{
-            "id":"amaranthus-price-4",
-            "quantity":"5kg",
-            "price":75,
-            "discount":12
-        }]
-    },{
-        "id":8,
-        "type":"vegetables",
-        "category":"root",
-        "img":"https://www.bigbasket.com/media/uploads/p/m//40023470_3-fresho-ladies-finger-organically-grown.jpg",
-        "displayName":"Ladies Finger",
-        "item":"ladies-finger",
-        "prices":[{
-            "id":"ladies-finger-price-1",
-            "quantity":"1kg",
-            "price":15,
-            "discount":2
-        },{
-            "id":"ladies-finger-price-2",
-            "quantity":"2kg",
-            "price":30,
-            "discount":3
-        },{
-            "id":"ladies-finger-price-3",
-            "quantity":"3kg",
-            "price":45,
-            "discount":5
-        },{
-            "id":"ladies-finger-price-4",
-            "quantity":"5kg",
+            "id":"Jangyalov Hac-price-4",
+            "quantity":"5 portion",
             "price":75,
             "discount":12
         }]

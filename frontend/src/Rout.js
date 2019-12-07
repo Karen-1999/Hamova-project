@@ -1,5 +1,5 @@
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
-import Meal from "./Meal";
+import Meal from "./server/Meal";
 import React from "react";
 import App from "./App";
 import User from "./components/User";

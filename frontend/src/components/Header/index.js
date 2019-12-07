@@ -23,12 +23,10 @@ const Header = () => {
                 <HeaderSearch />
                 <div className="app-user-info">
                     <HeaderMenu />
-                    <HeaderUserItems imgIcon={userIcon} userName="Welcome!"/>
-                    <Link to="/viewcart">
-                        <HeaderUserItems imgIcon={cartIcon} title="Your orders" />
-                    </Link>
-                    <HeaderUserItems imgIcon={notificationIcon} title="Your Notifications" />
-                </div>  
+                    <a navlink key="1" to="/signin">
+                        <HeaderUserItems imgIcon={userIcon}  userName="Welcome!"/>
+                    </a>
+                </div>
             </div>
             <Navbar />
         </div>

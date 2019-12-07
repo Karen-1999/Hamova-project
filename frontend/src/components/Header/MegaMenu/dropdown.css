@@ -20,7 +20,7 @@
   flex: 1;
   display: flex;
   text-align: center;
-  transition: padding 0.5s ease-in;
+  transition: padding 0.1s ease-in;
   transition: background-color .32s ease-in;
   padding:0 1.2rem 0 1.2rem;
   color: #ffffff;
@@ -31,7 +31,7 @@
   position: relative;
   justify-content: center;
   text-decoration: none;
-  padding: 1rem;
+  padding: 0rem;
   color:inherit;
 }
 
@@ -46,7 +46,7 @@
 
 a.hasDropdown:after {
   position: absolute;
-  bottom: -1rem;
+  bottom: 0rem;
   left: 50%;
   transform: translateX(-50%);
   border: 0.5rem solid transparent;
@@ -94,7 +94,7 @@ li:hover a.hasDropdown:after {
   white-space: nowrap;
   text-overflow: ellipsis;
   flex: 0 0 25%;
-  color: #db6356;
+  color: #ff5858;
 }
 
 .container__listItem > div {

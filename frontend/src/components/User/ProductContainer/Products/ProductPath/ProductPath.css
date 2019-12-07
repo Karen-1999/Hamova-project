@@ -1,6 +1,6 @@
 @CHARSET "UTF-8";
 .productPath{
-    display:flex;
     padding:1rem;
+    text-align: center;
 }
 

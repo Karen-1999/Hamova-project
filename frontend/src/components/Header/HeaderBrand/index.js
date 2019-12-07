@@ -5,9 +5,9 @@ const HeaderBrand= (props) => {
     return(
         <div className="app-brand">
             <span>
-                <Link to="/" className="app-brand-name">Hamova
-                </Link>
-                <img src={props.imgIcon} className="app-brand-icon" alt="bag"/>
+                <a href="/" className="app-brand-name">Hamova
+                </a>
+                <img src={require('../../../images/kitchen-logo.png')} className="app-brand-icon" alt="bag"/>
             </span>
         </div>
     )
