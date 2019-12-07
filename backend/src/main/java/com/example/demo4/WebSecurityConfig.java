@@ -27,7 +27,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .anyRequest().authenticated()
                 .and()
                 .formLogin()
-                .defaultSuccessUrl("/id/3", true)
+                .defaultSuccessUrl("http://localhost:3000", true)
                 .permitAll()
                 .and()
                 .httpBasic()
