@@ -3,6 +3,7 @@ package com.example.demo4;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import java.security.PrivateKey;
 
 @Entity
 public class Meal {
@@ -12,11 +13,14 @@ public class Meal {
 
     private String name;
     private String description;
+    private String ingredients;
 
-    public Meal(int id, String name, String Description)
+    public Meal(int id, String name, String Description, String Ingredients)
     {
         this.id = id;
         this.name  = name;
+        this.description = Description;
+        this.ingredients = Ingredients;
     }
 
     public Meal() {}
@@ -46,5 +50,13 @@ public class Meal {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public String getIngridients() {
+        return ingredients;
+    }
+
+    public void setIngridients(String ingridients) {
+        this.ingredients = ingridients;
     }
 }
