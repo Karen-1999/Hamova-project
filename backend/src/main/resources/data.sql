@@ -13,5 +13,10 @@ values
   (11, 'Jangyalov hac', 'Better than any shaurma for sure'),
   (12, 'Tjvjik', 'The deepness of flavors');
 
-
+INSERT INTO user (id, login, password, role)
+values
+  (1, 'Narek', '{noop}heh', 'ADMIN'),
+  (2, 'Karen', '{noop}heh', 'ADMIN'),
+  (3, 'Kirill', '{noop}hah', 'USER'),
+  (4, 'Dima', '{noop}hah', 'USER');
 
