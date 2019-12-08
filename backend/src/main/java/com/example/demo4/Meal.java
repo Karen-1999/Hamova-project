@@ -52,11 +52,11 @@ public class Meal {
         this.description = description;
     }
 
-    public String getIngridients() {
+    public String getIngredients() {
         return ingredients;
     }
 
-    public void setIngridients(String ingridients) {
+    public void setIngredients(String ingridients) {
         this.ingredients = ingridients;
     }
 }

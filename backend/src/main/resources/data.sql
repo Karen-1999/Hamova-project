@@ -14,8 +14,8 @@ values
 
 INSERT INTO user (id, login, password, role)
 values
-  (1, 'Narek', '{noop}heh', 'ADMIN'),
-  (2, 'Karen', '{noop}heh', 'ADMIN'),
-  (3, 'Kirill', '{noop}hah', 'USER'),
-  (4, 'Dima', '{noop}hah', 'USER');
+  (10, 'Narek', '{noop}heh', 'ADMIN'),
+  (20, 'Karen', '{noop}heh', 'ADMIN'),
+  (30, 'Kirill', '{noop}hah', 'USER'),
+  (40, 'Dima', '{noop}hah', 'USER');
 

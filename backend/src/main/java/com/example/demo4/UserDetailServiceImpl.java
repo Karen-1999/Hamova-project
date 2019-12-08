@@ -6,6 +6,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 /**
  * This class is used by spring security to authenticate and authorize user
@@ -20,10 +21,20 @@ public class UserDetailServiceImpl implements UserDetailsService  {
     }
 
     @Override
+    @Transactional
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         User curruser = repository.findByLogin(username);
         UserDetails user = new org.springframework.security.core.userdetails.User(username, curruser.getPassword(),
                 AuthorityUtils.createAuthorityList(curruser.getRole()));
-        return user;
+        return UserPrincipal.create(curruser);
     }
+
+    @Transactional
+    public UserDetails loadUserById(Long id)
+    {
+        User user = repository.findById(id).orElseThrow(() -> new UsernameNotFoundException("User not found. id:" + id));
+        return UserPrincipal.create(user);
+    }
+
+
 }

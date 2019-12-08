@@ -9,13 +9,13 @@ values
   (8, 'Xorovac', 'Mountain traditions in your heart', 'MEAT\n MEAT\n MEAT'),
   (9, 'Xashlama', 'MEAT AND WATER', 'Mutton\n Хмели-Сунели'),
   (10, 'Harisa', 'Curing Armenian Food', 'Chicken \n Wheat \n Butter \n Sault'),
-  (11, 'Jangyalov hac', 'Better than any shaurma for sure', 'Fresh Cilantro\n Wheat Flour\n Parsley \n Water \n Green Onion \n Sorrel'),
+  (11, 'Jangyalov Hac', 'Better than any shaurma for sure', 'Fresh Cilantro\n Wheat Flour\n Parsley \n Water \n Green Onion \n Sorrel'),
   (12, 'Tjvjik', 'Favourite Armenian food from my Lector po Funkanu', 'Fresh Cilantro\n Beef Heart\n Beef Liver \n Onion Репчатый \n Tomatoes \n Basil \n Paprika \n Butter \n Sault');
 
 INSERT INTO user (id, login, password, role)
 values
-  (1, 'Narek', '{noop}heh', 'ADMIN'),
-  (2, 'Karen', '{noop}heh', 'ADMIN'),
-  (3, 'Kirill', '{noop}hah', 'USER'),
-  (4, 'Dima', '{noop}hah', 'USER');
+  (10, 'Narek', '{noop}heh', 'ADMIN'),
+  (20, 'Karen', '{noop}heh', 'ADMIN'),
+  (30, 'Kirill', '{noop}hah', 'USER'),
+  (40, 'Dima', '{noop}hah', 'USER');
 
