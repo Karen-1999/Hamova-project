@@ -1,5 +1,7 @@
 package com.example.demo4;
 
+import com.example.demo4.domain.Meal;
+import com.example.demo4.domain.MealRepo;
 import org.springframework.stereotype.Service;
 
 @Service
