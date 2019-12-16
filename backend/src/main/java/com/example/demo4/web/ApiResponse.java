@@ -1,17 +1,14 @@
 package com.example.demo4.web;
 
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter
 @Setter
+@AllArgsConstructor
 public class ApiResponse {
     private Boolean success;
     private String message;
-
-    public ApiResponse(Boolean success, String message) {
-        this.success = success;
-        this.message = message;
-    }
 }

@@ -2,6 +2,7 @@ package com.example.demo4.security;
 
 import com.example.demo4.domain.User;
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import lombok.Getter;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -11,6 +12,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Objects;
 
+@Getter
 public class UserPrincipal implements UserDetails {
     private Long id;
 
@@ -32,25 +34,6 @@ public class UserPrincipal implements UserDetails {
     {
         List<GrantedAuthority> authorities = Collections.singletonList(new SimpleGrantedAuthority(user.getRole()));
         return new UserPrincipal(user.getId(), user.getLogin(), user.getPassword(), authorities);
-    }
-
-    @Override
-    public String getPassword() {
-        return password;
-    }
-
-    @Override
-    public Collection<? extends GrantedAuthority> getAuthorities() {
-        return authorities;
-    }
-
-    public Long getId() {
-        return id;
-    }
-
-    @Override
-    public String getUsername() {
-        return username;
     }
 
     @Override
